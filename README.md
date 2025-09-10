@@ -2,7 +2,7 @@
 
 ### A Counter-Strike 2 Anti-Cheat plugin built on CounterStrikeSharp, designed to protect your server from cheaters in real time.
 
-***Our system goes beyond simple checks – it analyzes player behavior, movement, and aim patterns to catch both rage cheaters and closet players trying to look legit. Unlike traditional plugins that only catch blatant rage hackers, ACD is designed to detect both rage cheaters (spinbot, rapidfire, flickbot) and closet cheaters (silent aim, triggerbot, subtle wallhack). It achieves this by tracking detailed player behavior and applying statistical analysis over time, instead of relying on random guesswork.***
+***Our system goes beyond simple checks – it analyzes player behavior, movement, and aim patterns to catch both rage cheaters and closet players trying to look legit. Unlike traditional plugins that only catch blatant rage hackers, CCD is designed to detect both rage cheaters (spinbot, rapidfire, flickbot) and closet cheaters (silent aim, triggerbot, subtle wallhack). It achieves this by tracking detailed player behavior and applying statistical analysis over time, instead of relying on random guesswork.***
 
 ## Requirements
 
@@ -12,37 +12,37 @@
 ## Features
 
 ```
-Aimbot & Triggerbot Detection
+🎯 Aimbot & Triggerbot Detection
 
 Detects flickbots, instant flicks, and unnatural trigger timing.
 
 
-Advanced Aim Pattern Analysis
+🎯 Advanced Aim Pattern Analysis
 
 Identifies semi-rage and rage aimbots.
 
 
-Silent Aim / Flickbot Defense
+🎯 Silent Aim / Flickbot Defense
 
 Flags unrealistic hit transitions.
 
 
-Human-Like Smoothness & Velocity Check
+🎯 Human-Like Smoothness & Velocity Check
 
 Spots cheaters with robotic smoothness or zero reaction time.
 
 
-Wallhack
+🎯 Wallhack
 
 Early-stage features for spotting unnatural wall pre-aims and suspicious awareness.
 
 
-Macro & Spam Protection
+🎯 Macro & Spam Protection
 
 Detects bunnyhop scripts, strafe macros, and radio spam.
 
 
-Discord Webhook Integration
+🎯 Discord Webhook Integration
 
 Real-time cheat alerts with evidence and player statistics sent directly to your server’s Discord.
 
