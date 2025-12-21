@@ -1,6 +1,6 @@
 # CS2 Cheat Detector
 
-### CS2 Cheat Detector helps server owners and players keep the game fair..
+### CS2 Cheat Detector helps server owners and players keep the game fair.
 
 ***Cheats are often installed on a player’s computer, running in the background, or hidden inside common folders. Most community servers don’t have advanced anti-cheat systems, so cheaters can play without being detected.***
 
@@ -10,6 +10,8 @@
 - ⚡ Detecting suspicious activity before or during gameplay
 - 🛡 Helping admins verify players in a safe way
 - 🧠 Working without modifying files or spying on private data
+
+<a href="https://discord.gg/d5uvMmUpuE"><img src="./cheatdetector.png"></a>
 
 ## It is especially useful for:
 
@@ -23,18 +25,18 @@
 
 ## What each scan detects?
 
-**⚡ Quick Scan**
+### ⚡ Quick Scan
 
-Fast check of the most common cheat locations
+**Fast check of the most common cheat locations**
 
 Best for:
 
 `Fast checks
 Before joining a server`
 
-**🧠 Full Scan**
+### 🧠 Full Scan
 
-Deep scan of the entire system
+**Deep scan of the entire system**
 
 Best for:
 
@@ -42,9 +44,9 @@ Best for:
 Tournament verification
 When cheating is suspected`
 
-**🌐 Browser Scan**
+### 🌐 Browser Scan
 
-Checks browser data for cheat-related traces
+**Checks browser data for cheat-related traces**
 
 Checks:
 
@@ -54,14 +56,13 @@ Leftover download traces even if the file was deleted`
 
 **📄 Export Report**
 
-Why exporting a report is useful
+**Why exporting a report is useful**
 
 Checks:
 
 `The Export Report feature allows you to save the scan results in a clear and readable file.
 This makes it easy to review results later, share them with admins, or store evidence for player verification.`
 
-<a href="https://discord.gg/d5uvMmUpuE"><img src="./cheatdetector.png"></a>
 
 Community Servers – keep casual servers free from closet cheaters.
 Competitive Matches – ensure fair play in tournaments.
