@@ -1,112 +1,67 @@
 # CS2 Cheat Detector
 
-### A Counter-Strike 2 Anti-Cheat plugin built on CounterStrikeSharp, designed to protect your server from cheaters in real time.
+### CS2 Cheat Detector helps server owners and players keep the game fair..
 
-***Our system goes beyond simple checks – it analyzes player behavior, movement, and aim patterns to catch both rage cheaters and closet players trying to look legit. Unlike traditional plugins that only catch blatant rage hackers, CCD is designed to detect both rage cheaters (spinbot, rapidfire, flickbot) and closet cheaters (silent aim, triggerbot, subtle wallhack). It achieves this by tracking detailed player behavior and applying statistical analysis over time, instead of relying on random guesswork.***
+***Cheats are often installed on a player’s computer, running in the background, or hidden inside common folders. Most community servers don’t have advanced anti-cheat systems, so cheaters can play without being detected.***
 
-## Requirements
+## This tool solves that by:
 
-- CounterStrikeSharp
-- Metamod
+- 🔍 Checking the player’s system for known cheat signs
+- ⚡ Detecting suspicious activity before or during gameplay
+- 🛡 Helping admins verify players in a safe way
+- 🧠 Working without modifying files or spying on private data
 
-## Features
+## It is especially useful for:
 
-```
-🎯 Aimbot & Triggerbot Detection
+- Community CS2 servers
 
-Detects flickbots, instant flicks, and unnatural trigger timing.
+- Tournament checks
 
+- Tryouts or trusted-player verification
 
-🎯 Advanced Aim Pattern Analysis
+- Detecting public, rage and semi-private cheats
 
-Identifies semi-rage and rage aimbots.
+## What each scan detects?
 
+**⚡ Quick Scan**
 
-🎯 Silent Aim / Flickbot Defense
+Fast check of the most common cheat locations
 
-Flags unrealistic hit transitions.
+Best for:
 
+`Fast checks
+Before joining a server`
 
-🎯 Human-Like Smoothness & Velocity Check
+**🧠 Full Scan**
 
-Spots cheaters with robotic smoothness or zero reaction time.
+Deep scan of the entire system
 
+Best for:
 
-🎯 Wallhack
+`High-risk players
+Tournament verification
+When cheating is suspected`
 
-Early-stage features for spotting unnatural wall pre-aims and suspicious awareness.
+**🌐 Browser Scan**
 
+Checks browser data for cheat-related traces
 
-🎯 Macro & Spam Protection
+Checks:
 
-Detects bunnyhop scripts, strafe macros, and radio spam.
+`Download history for known cheat files
+Cheat websites and loaders (by pattern, not content)
+Leftover download traces even if the file was deleted`
 
+**📄 Export Report**
 
-🎯 Discord Webhook Integration
+Why exporting a report is useful
 
-Real-time cheat alerts with evidence and player statistics sent directly to your server’s Discord.
+Checks:
 
-```
-## Configuration
+`The Export Report feature allows you to save the scan results in a clear and readable file.
+This makes it easy to review results later, share them with admins, or store evidence for player verification.`
 
-```json
-{
-  "General": {
-    "ServerName": "",
-    "Webhook": ""
-  },
-  "Settings": {
-    "BanCommand": "css_ban",
-    "Duration": 0,
-    "SendWebhook": true,
-    "Logs": true,
-    "AimDataLog": true
-  },
-  "SpinbotDetection": {
-    "Enabled": true,
-    "UnnaturalPrecisionThreshold": 180,
-    "SuspicionThreshold": 5,
-    "BanPlayer": true
-  },
-  "AimbotDetection": {
-    "Enabled": true,
-    "MinAimTransitionTime": 120,
-    "MaxAngularVelocity": 6.0,
-    "SuspicionThreshold": 5,
-    "BanPlayer": true
-  },
-  "Triggerbot": {
-    "Enabled": true,
-    "MinReactionTime": 120,
-    "SuspicionThreshold": 5,
-    "BanPlayer": true
-  },
-  "SilentAimDetection": {
-    "Enabled": true,
-    "MaxHumanVelocity": 140,
-    "SuspicionThreshold": 5,
-    "BanPlayer": true
-  },
-  "WallHackDetection": {
-    "Enabled": true,
-    "SuspiciousWallbangsThreshold": 6,
-    "RDSuspiciousWallbangsThreshold": 3,
-    "RDSuspiciousWallshotThreshold": 3,
-    "RDSuspiciousAwarenessThreshold": 3,
-    "BanPlayer": true
-  },
-  "Bunnyhop": {
-    "Enabled": true,
-    "Threshold": 128,
-    "BanPlayer": true
-  },
-  "RapidFire": {
-    "Enabled": true,
-    "Threshold": 3,
-    "BanPlayer": true
-  }
-}
-```
+<a href="https://discord.gg/d5uvMmUpuE"><img src="./cheatdetector.png"></a>
 
 Community Servers – keep casual servers free from closet cheaters.
 Competitive Matches – ensure fair play in tournaments.
