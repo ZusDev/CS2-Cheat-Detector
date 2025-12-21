@@ -64,8 +64,8 @@ Checks:
 This makes it easy to review results later, share them with admins, or store evidence for player verification.`
 
 
-Community Servers – keep casual servers free from closet cheaters.
-Competitive Matches – ensure fair play in tournaments.
+Community Servers: keep casual servers free from closet cheaters.
+Competitive Matches: ensure fair play in tournaments.
 
 With CS2 Cheat Detector, you can control your server’s integrity and stay ahead of evolving.
 
