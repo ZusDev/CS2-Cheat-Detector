@@ -4,6 +4,8 @@
 
 ***Cheats are often installed on a player’s computer, running in the background, or hidden inside common folders. Most community servers don’t have advanced anti-cheat systems, so cheaters can play without being detected.***
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Development-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000)](https://buymeacoffee.com/cs4fun)
+
 ## This tool solves that by:
 
 - 🔍 Checking the player’s system for known cheat signs
